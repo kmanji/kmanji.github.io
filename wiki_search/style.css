@@ -48,7 +48,7 @@ a{
   color: #0a3871;
 }
 .search_button:focus::-webkit-input-placeholder { 
-  color:transparent; 
+  color: #0a3871;
 }
 
 .search_wiki .fa-search { 
@@ -58,4 +58,8 @@ a{
   color: #0a3871; 
 }
 .search_wiki .fa-search:focus { color:transparent; }
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
 
