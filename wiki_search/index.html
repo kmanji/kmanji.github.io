@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script language="JavaScript" type="text/javascript"  src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/genericons/3.4.1/genericons/genericons.css">
+  <script type="text/javascript" src="wiki.js"></script>
+  <title>
+    Wikipedia Viewer
+  </title>
+</head>
+<body>
+  <div class="container">
+    <div class="random_wiki" id="id_random">
+      <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><button type="button" class="random_button styling width">Generate Random Wiki</button></a>
+    </div>
+  </div>
+  <div class="search_wiki">
+    <span id="search_form" onclick="search();">
+      <i id="search_icon" class="fa fa-search"></i>
+    </span>
+      <input id="search_field" class="search_button styling width" type="search" onkeypress="pressedEnter(event);" placeholder="Search Wiki" />
+    </div>
+  </div>
+  <div class="row wiki_results" id="wiki_results">
+  </div>
+    
+</body>
+</html>
+
+    
