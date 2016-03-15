@@ -1,0 +1,35 @@
+
+
+body {
+  font-family: roboto;
+  
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+#city_desc{
+  color: black;
+  font-weight: 900;
+}
+#city_temp{
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  /*font-weight: 900;*/
+  color: white;
+}
+
+button {
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid none;
+  border-radius: 20px;
+  padding-top: 6px;
+}
+button:focus {
+  outline: 0;
+}
