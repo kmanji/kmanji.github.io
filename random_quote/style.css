@@ -1,0 +1,49 @@
+body {
+  font-family: Roboto;
+}
+
+h1 {
+  color: #AA3939;
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+.next-button {
+  text-align: center;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #AA3939;
+  margin: 25px;
+  font-size: 18px;
+  color: white;
+}
+button:hover{
+  background-color: #AA5959;
+  color: #010101;
+}
+button:focus{
+  outline:0;
+}
+
+.quote {
+  text-align: center;
+  padding: 5px;
+}
+
+.quotes {
+  margin: 0px;
+  font-family: Roboto;
+}
+
+.quote-quote {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.twitter {
+  text-align: center;
+}
